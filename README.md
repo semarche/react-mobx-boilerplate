@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <a href="http://opensource.org/licenses/MIT"><img alt="MIT License" src="https://img.shields.io/npm/l/express.svg"></a>
+  <a href="http://opensource.org/licenses/MIT"><img alt="MIT License" src="http://seawisphunter.com/minibuffer/api/MIT-License-transparent.png"></a>
 </p>
 
 ## React - MobX - React-Router - Webpack Boilerplate
