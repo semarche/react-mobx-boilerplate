@@ -3,11 +3,12 @@
 </p>
 
 ## React - MobX - React-Router - Webpack Boilerplate
-
 React, MobX, React-Router and Webpack boilerplate with async routes.
 
-### Table of contents
+### Live example
+https://semarche.github.io/react-mobx-boilerplate
 
+### Table of contents
 * [Install](#install)
 * [Usage](#usage)
 * [License](#license)
