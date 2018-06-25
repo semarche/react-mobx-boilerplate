@@ -6,7 +6,7 @@
 React, MobX, React-Router and Webpack boilerplate with async routes.
 
 ### Live example
-https://semarche.github.io/react-mobx-boilerplate
+<a href="https://semarche.github.io/react-mobx-boilerplate/index.html">Live example at GitHub pages</a>
 
 ### Table of contents
 * [Install](#install)
