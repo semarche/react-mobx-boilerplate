@@ -1,0 +1,16 @@
+.home main {
+  padding: remy(48px) remy(24px);
+  padding: remy(48px) remy(24px);
+}
+
+@media screen and (min-width: 961px) {
+  .home main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: remy(960px);
+  }
+}
+
+
+
+/*# sourceMappingURL=1.697e1d0a3c132eae4c23.css.map*/

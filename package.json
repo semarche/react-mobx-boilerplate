@@ -10,9 +10,8 @@
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development",
-    "build": "cross-env NODE_ENV=production rimraf ./dist && webpack --mode production",
-    "postinstall": "webpack --config ./webpack.config.production.js --mode production --display-error-details",
-    "start": "cross-env NODE_ENV=production http-server ./dist -p 9999 -c-1"
+    "build": "rimraf ./dist && cross-env NODE_ENV=production webpack --mode production",
+    "start": "cross-env NODE_ENV=production http-server ./dist -p 9999 --push-state -c-1"
   },
   "keywords": [
     "ES6",
@@ -53,6 +52,7 @@
     "rimraf": "^2.6.2",
     "sass-lint": "^1.12.1",
     "sass-loader": "^7.0.3",
+    "spa-http-server": "^0.9.0",
     "style-loader": "^0.21.0",
     "url-loader": "^1.0.1",
     "webpack": "^4.12.0",
@@ -62,7 +62,6 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "http-server": "^0.11.1",
     "mobx": "^5.0.2",
     "mobx-react": "^5.2.3",
     "mobx-react-devtools": "^5.0.1",
