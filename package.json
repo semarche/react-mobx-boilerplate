@@ -11,6 +11,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development",
     "build": "rimraf ./dist && cross-env NODE_ENV=production webpack --mode production",
+    "build-docs": "rimraf ./dist ./docs && cross-env NODE_ENV=production PUBLIC_URL=react-mobx-boilerplate webpack --mode production && cp -r ./dist ./docs",
     "start": "cross-env NODE_ENV=production http-server ./dist -p 9999 --push-state -c-1"
   },
   "keywords": [

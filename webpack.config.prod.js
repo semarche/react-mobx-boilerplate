@@ -36,7 +36,8 @@ module.exports = {
   plugins: [
     new webpack.DefinePlugin({
       'process.env': {
-        NODE_ENV: JSON.stringify('production')
+        NODE_ENV: JSON.stringify('production'),
+        PUBLIC_URL: JSON.stringify(process.env.PUBLIC_URL),
       }
     }),
     new webpack.optimize.OccurrenceOrderPlugin(true),

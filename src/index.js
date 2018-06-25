@@ -11,11 +11,13 @@ import createBrowserHistory from 'history/createBrowserHistory';
 import './index.scss'
 
 export const isProduction = process.env.NODE_ENV === 'production';
+export const basename = process.env.PUBLIC_URL;
+
 store.setup(stores);
 const appStore = rehydrate();
 
 const renderApp = Component => {
-  const browserHistory = createBrowserHistory();
+  const browserHistory = createBrowserHistory({ basename });
   const routeStore = new RouterStore();
   const history = syncHistoryWithStore(browserHistory, routeStore);
 

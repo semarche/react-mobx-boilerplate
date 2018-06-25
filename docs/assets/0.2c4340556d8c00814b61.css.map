@@ -1,0 +1,1 @@
+{"version":3,"file":"assets/0.2c4340556d8c00814b61.css","sources":["webpack:///./src/components/login.scss"],"sourcesContent":[".login-form {\n  a {\n    font-weight: 800;\n    text-decoration: underline;\n  }\n}\n"],"mappings":"AACA;AACA;AACA;AAAA;AACA;;","sourceRoot":""}
